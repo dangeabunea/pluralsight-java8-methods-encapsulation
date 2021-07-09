@@ -9,7 +9,6 @@ public class RadarLabelOptions {
         this.showSpeed = showSpeed;
     }
 
-
     public boolean isShowAltitudeTrendArrow() {
         return showAltitudeTrendArrow;
     }
