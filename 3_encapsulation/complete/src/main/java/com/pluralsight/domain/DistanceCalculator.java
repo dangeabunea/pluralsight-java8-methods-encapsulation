@@ -25,8 +25,9 @@ class DistanceCalculator {
             distance += this.calculateHorizontalDistance(
                     coordinates.get(i),
                     coordinates.get(i + 1));
-            coordinates.get(i).setX(-10);
+            coordinates.get(i).setX(41);
         }
+
         return distance;
     }
 }
