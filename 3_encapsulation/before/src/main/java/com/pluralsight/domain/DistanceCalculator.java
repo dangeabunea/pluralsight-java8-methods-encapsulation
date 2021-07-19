@@ -4,7 +4,7 @@ import java.util.List;
 
 import static java.lang.Math.sqrt;
 
-class DistanceCalculator {
+public class DistanceCalculator {
     public double calculateHorizontalDistance(double x1,
                                               double y1,
                                               double x2,
@@ -25,8 +25,8 @@ class DistanceCalculator {
             distance += this.calculateHorizontalDistance(
                     coordinates.get(i),
                     coordinates.get(i + 1));
-            coordinates.get(i).setX(-10);
         }
+
         return distance;
     }
 }
