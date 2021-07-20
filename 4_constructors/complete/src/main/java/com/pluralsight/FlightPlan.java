@@ -23,7 +23,7 @@ public class FlightPlan {
             throw new IllegalArgumentException();
         }
 
-        System.out.println(String.format("FlightPlan( %s, %s) Constructor" , departure, destination));
+        System.out.printf("FlightPlan( %s, %s) Constructor%n", departure, destination);
 
         this.departure = departure;
         this.destination = destination;
@@ -36,11 +36,11 @@ public class FlightPlan {
             throw new IllegalArgumentException();
         }
 
-        System.out.println(String.format("FlightPlan( %s, %s, %s, %s) Constructor",
+        System.out.printf("FlightPlan( %s, %s, %s, %s) Constructor%n",
                 departure,
                 destination,
                 departureTime.toLocalTime(),
-                route.toString()));
+                route.toString());
 
         this.route = route;
         this.departureTime = departureTime;
